@@ -16,5 +16,7 @@ export class AppComponent {
     { name: "Headset", value: 150000 },
     { name: "Fridge", value: 20000 }
   ];
+
   
+
 }
