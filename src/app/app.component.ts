@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { faRightFromBracket, faChevronUp, faExclamation, faDollarSign, faLightbulb } from '@fortawesome/free-solid-svg-icons';
+import { faRightFromBracket, faChevronUp, faExclamation,
+faDollarSign, faLightbulb, faUser, faHouse, faEye } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +16,9 @@ export class AppComponent {
   dangerIcon = faExclamation;
   moneyIcon = faDollarSign;
   ideaIcon = faLightbulb;
+  userIcon = faUser;
+  houseIcon = faHouse;
+  eyeIcon = faEye;
 
   saleData = [
     { name: "Mobiles", value: 105000 },
