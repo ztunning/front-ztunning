@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
+import { faRightFromBracket, faChevronUp, faExclamation, faDollarSign, faLightbulb } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +11,10 @@ export class AppComponent {
   title = 'ztunning';
 
   closeIcon = faRightFromBracket;
+  plusIcon = faChevronUp;
+  dangerIcon = faExclamation;
+  moneyIcon = faDollarSign;
+  ideaIcon = faLightbulb;
 
   saleData = [
     { name: "Mobiles", value: 105000 },
