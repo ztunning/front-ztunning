@@ -5,9 +5,15 @@
         <fa-icon [icon]="userIcon" size="xl"></fa-icon>
       </button>
     </a>
-    <p class="m-1 fs-3">
-      <fa-icon [icon]="houseIcon" ></fa-icon>
-    </p>
+    <div class="row">
+      <div class="col-sm-3 text-center">
+        <div class="card text-bg-success text-center" style="height: 3rem; width: 13.5rem;">
+          <div class="card-body">
+            <h6 class="card-title">Total R$7.050,23</h6>
+          </div>
+        </div>
+      </div>
+    </div>
     <button type="button" class="btn btn-dark btn-sm rounded-circle" style="width: 50px; height: 50px"  >
       <fa-icon [icon]="eyeIcon" size="xl"></fa-icon>
     </button>
@@ -17,43 +23,55 @@
 <div class="container p-3">
 
   <div class="row">
-    <div class="col-sm-3 text-center">
-      <div class="card text-bg-dark mb-3" style="min-width: 13rem; min-height: 8rem;">
-        <div class="card-body p-5 text-danger">
-          <div class="row">
-            <div class="col-2">
-              <button type="button" class="btn btn-danger btn-sm rounded-circle" style="width: 50px; height: 50px" disabled>
+
+    <div class="col text-center">
+
+      <div class="card text-bg-dark mb-3" >
+        <div class="card-body p-4 text-danger">
+          <div class="col text-center">
+            <div class="row">
+              <button type="button" class="btn btn-danger btn-sm rounded-circle mx-auto mb-3" style="width: 40px; height: 40px" disabled>
                 <fa-icon [icon]="dangerIcon" size="xl"></fa-icon>
               </button>
             </div>
-            <diV class="col-10">
-              <h5 class="card-title">Gastos</h5>
-              <h4 class="card-text">R$ 1.739,77</h4>
+            <div class="row">
+              <h6 class="card-text">Gastos</h6>
+                <h5 class="card-text">R$1.739,77</h5>
               <a href="#" class="stretched-link"></a>
-            </diV>
-          </div>
+            </div>
+        </div>
         </div>
       </div>
+
     </div>
-    <div class="col-sm-3 text-center">
-      <div class="card text-bg-dark mb-3" style="min-width: 13rem; min-height: 8rem;">
-        <div class="card-body p-5 text-success">
-          <div class="row">
-            <div class="col-2">
-              <button type="button" class="btn btn-success btn-sm rounded-circle" style="width: 50px; height: 50px" disabled>
+
+    <div class="col text-center">
+
+      <div class="card text-bg-dark mb-3" >
+        <div class="card-body p-4 text-success">
+          <div class="col text-center">
+            <div class="row">
+              <button type="button" class="btn btn-success btn-sm rounded-circle mx-auto mb-3" style="width: 40px; height: 40px" disabled>
                 <fa-icon [icon]="moneyIcon" size="xl"></fa-icon>
               </button>
             </div>
-            <diV class="col-10">
-              <h5 class="card-title">Receita</h5>
-              <h4 class="card-text">R$ 8.790,00</h4>
+            <div class="row">
+              <h6 class="card-text">Receita</h6>
+                <h5 class="card-text">R$8.790,00</h5>
               <a href="#" class="stretched-link"></a>
-            </diV>
-          </div>
+            </div>
+        </div>
         </div>
       </div>
+
     </div>
+
+  </div>
+
+  <div class="row">
+
     <div class="col-sm-3 text-center">
+
       <div class="card text-bg-dark mb-3" style="min-width: 13rem; min-height: 8rem;">
         <div class="card-body p-5">
           <div class="row">
@@ -63,14 +81,16 @@
               </button>
             </div>
             <diV class="col-10">
-              <h5 class="card-title">Sugestão</h5>
+              <h6 class="card-title">Sugestão</h6>
               <h4 class="card-text">R$ 873,56</h4>
               <a href="#" class="stretched-link"></a>
             </diV>
           </div>
         </div>
       </div>
+
     </div>
+
     <div class="col-sm-3 text-center">
 
       <div class="card text-bg-dark mb-3" style="min-width: 13rem; min-height: 8rem;">
@@ -82,7 +102,7 @@
               </button>
             </div>
             <diV class="col-10">
-              <h5 class="card-title">Variação</h5>
+              <h6 class="card-title">Variação</h6>
               <h4 class="card-text">12%</h4>
               <a href="#" class="stretched-link"></a>
             </diV>
@@ -91,6 +111,7 @@
       </div>
 
     </div>
+
   </div>
 
 </div>
@@ -101,7 +122,7 @@
       <div class="card text-bg-dark text-center" style="height: 18rem">
         <div class="card-body">
 
-          <h4 class="card-title p-5">Carregando informações...</h4>
+          <h4 class="card-title p-5">Carregando...</h4>
 
           <div class="progress">
             <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 55%; background-color: #069B77" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
